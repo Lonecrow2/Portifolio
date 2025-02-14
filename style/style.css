@@ -6,7 +6,7 @@ body,html {
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-     background-image: linear-gradient(#011e22, #003941) ; 
+     background-image: linear-gradient(#003d46, #04a6bb) ; 
     /* background-image: url(../imagens/background-ciano.jpg);
      */
 }
@@ -28,10 +28,9 @@ main{
 #header-container {
     display: flex;
     justify-content: space-evenly;
-    background-image: linear-gradient(to right, #026e7c00,#005764, #028da06b,  #026e7c23);
+    background-image: linear-gradient(to right, #026e7c00,#00282e, #0283946b,  #026e7c23);
     width: 100%;
-    border-bottom: 4px solid #026c7a;
-    margin: auto;
+    border-bottom: 4px solid #026c7a00;
 }
 
 #filho1-header {
@@ -47,19 +46,19 @@ main{
 
 #ul-filho-header>li>a {
 
-    color: #a7f5ff;
+    color: #ffffff;
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
-    background-color: #003d46;
+    background-color: #002c33;
     border-radius: 5px;
     padding: 8px;
     transition: all .5s;
 }
 
 #ul-filho-header > li > a:hover{
-    background-color: #026e7c;
-    box-shadow: 0px 0px 0px 5px #026e7c;
+    background-color: #003f47;
+    box-shadow: 0px 0px 0px 5px #003f47;
 }
 
 #logo{
@@ -75,6 +74,8 @@ main{
 /*apresentação*/
 
 h1{
+    text-align: center;
+    
     color: #43cffa;
 }
 
@@ -92,7 +93,7 @@ hr {
     width: 350px;
     padding: 3px;
     margin-left: -20px;
-    background-image: linear-gradient(to right, #003941, #00e1ff, #00ddff, #00ccff, #003941);
+    background-image: linear-gradient(to right, orange, blue, yellow);
     border: none;
     animation: move 2s linear infinite;
     background-size: 200% 100%; 
@@ -118,7 +119,7 @@ hr {
     padding: 10px;
     font-size: 23px;
     width: 500px;
-    color: #a7f5ff;
+    color: #ffffff;
     background-color: #00000052;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
     box-shadow:  2px 2px 8px 2px #000000;
@@ -131,11 +132,12 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 24px;
+    text-align: justify;
 }
 
 footer{
     color: #a7f5ff;
     padding: 1px;
     text-align: center;
-    background-image: linear-gradient(to right, #026e7c00, #05778654,#05778654,#026e7c00);
+    background-image: linear-gradient(to right, #026e7c00,#00282e, #002429d5,  #026e7c23);
 }
