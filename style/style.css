@@ -6,12 +6,21 @@ body,html {
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    background-image: linear-gradient(#011e22, #003941) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+     background-image: linear-gradient(#011e22, #003941) ; 
+    /* background-image: url(../imagens/background-ciano.jpg);
+     */
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    flex: 1;
+    box-shadow: inset 0px 0px 6px 0px #000000cc;
+}
 
 /*----------------header-----------*/
 
@@ -67,7 +76,7 @@ body,html {
 #apre-container{
     display: flex;
     justify-content: space-around;
-    margin: 50px 0px 0px 100px;
+    margin: 50px 0px 0px 0px;
     gap: 100px;
     flex-wrap: wrap;
 
@@ -95,7 +104,7 @@ hr {
 
 #img-apre > img{
     width: 300px;
-    filter: drop-shadow(5px -5px 2px black) ;
+    filter: drop-shadow(5px 8px 2px black);
 }
 
 #apre-filho{
@@ -107,19 +116,20 @@ hr {
     color: #a7f5ff;
     background-color: #00000042;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
+    box-shadow:  2px 2px 8px 2px #000000;
 }
 
 #apre-filho > p{
+    line-height: 35px;
     white-space: pre-line;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 footer{
-    color: white;
+    color: #a7f5ff;
     padding: 1px;
     text-align: center;
-    margin-top: 75px;
     background-image: linear-gradient(to right, #026e7c00, #05778654,#05778654,#026e7c00);
 }
