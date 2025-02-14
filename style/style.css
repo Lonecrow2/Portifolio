@@ -20,6 +20,7 @@ body{
 main{
     flex: 1;
     box-shadow: inset 0px 0px 6px 0px #000000cc;
+    
 }
 
 /*----------------header-----------*/
@@ -73,6 +74,10 @@ main{
 
 /*apresentação*/
 
+h1{
+    color: #43cffa;
+}
+
 #apre-container{
     display: flex;
     justify-content: space-around;
@@ -114,7 +119,7 @@ hr {
     font-size: 23px;
     width: 500px;
     color: #a7f5ff;
-    background-color: #00000042;
+    background-color: #00000052;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
     box-shadow:  2px 2px 8px 2px #000000;
 }
@@ -124,7 +129,7 @@ hr {
     white-space: pre-line;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 footer{
