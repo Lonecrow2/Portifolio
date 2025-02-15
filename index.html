@@ -9,16 +9,23 @@
 </head>
 
 <body>
+    
     <header id="header-container">
         <div id="logo"><img src="imagens/Lonecrow.png" alt=""></div>
-        <div id="filho1-header">
-            <ul id="ul-filho-header">
-                <li id="li4"><a href="#">HOME</a></li>
-                <li id="li2"><a href="#">PROJETOS</a></li>
-                <li id="li3"><a href="#">SOBRE MIM</a></li>
-                <li id="li1"><a href="#">CONTATO</a></li>
-            </ul>
-        </div>
+            
+        
+            <button id="burguer" onclick="burguer()">MENU</button>
+                <div id="filho1-header">
+            
+                    <ul id="ul-filho-header">
+                        <li id="li4"><a href="#">HOME</a></li>
+                        <li id="li2"><a href="#">PROJETOS</a></li>
+                        <li id="li3"><a href="#">SOBRE MIM</a></li>
+                        <li id="li1"><a href="#">CONTATO</a></li>
+                    </ul>
+                </div>
+        
+           
     </header>
 
     <main>
@@ -26,9 +33,11 @@
 
             <div id="apre-filho">
                 <h1><em>DESENVOLVEDOR FRONT-END</em></h1>
-                <p> Olá, meu nome é Ernesto Rampanelli Neto. Sou desenvolvedor front-end com especialidade em HTML5, CSS3 e JavaScript com foco na criação de interfaces Web.
-                Prezando pela eficiencia, responsividade e visuais atraentes para proporcionar a melhor experiência ao usuário. 
-                Ficou interessado? Explore meus projetos acima.
+                <p> Olá, meu nome é Ernesto Rampanelli Neto. Sou desenvolvedor front-end com especialidade em HTML5,
+                    CSS3 e JavaScript com foco na criação de interfaces Web.
+                    Prezando pela eficiencia, responsividade e visuais atraentes para proporcionar a melhor experiência
+                    ao usuário.
+                    Ficou interessado? Explore meus projetos acima.
                 </p>
             </div>
             <div id="img-apre">
@@ -41,6 +50,18 @@
     <footer>
         <p>©2025 Ernesto Rampanelli Neto. Todos os direitos reservados</p>
     </footer>
+
+    <script>
+        function burguer() {
+            var list = document.getElementById('filho1-header');
+            if (list.style.display === "none" || list.style.display === "") {
+                list.style.display = "block";
+            }
+            else {
+                list.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>
