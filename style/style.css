@@ -96,8 +96,12 @@ hr {
 /*-----------------------------apresentação----------------------------------*/
 
 h1 {
+    text-shadow: none;
     text-align: center;
-    color: #43cffa;
+    background-image: linear-gradient(to right, #43cffa, #b5eeff, #b5eeff, #43cffa);
+    -webkit-background-clip: text;
+    color: transparent;
+    /* color: #43cffa; */
 }
 
 #apre-container {
@@ -114,6 +118,15 @@ h1 {
     animation: crescer 2s ease-out;
 }
 
+#apre-span{
+    text-shadow: none;
+    font-size: 19px;
+    font-style: italic;
+    background-image: linear-gradient(to right, #00e1ff, #98f3ff, #98f3ff, #00e1ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 #apre-filho {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 15px;
@@ -122,7 +135,7 @@ h1 {
     width: 500px;
     color: #ffffff;
     background-color: #00000052;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
+    /* text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438); */
     box-shadow: 2px 2px 8px 2px #000000;
 }
 
