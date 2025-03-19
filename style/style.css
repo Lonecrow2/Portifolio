@@ -99,7 +99,7 @@ h1 {
     text-shadow: none;
     text-align: center;
     background-image: linear-gradient(to right, #43cffa, #b5eeff, #b5eeff, #43cffa);
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     /* color: #43cffa; */
 }
@@ -123,7 +123,7 @@ h1 {
     font-size: 19px;
     font-style: italic;
     background-image: linear-gradient(to right, #00e1ff, #98f3ff, #98f3ff, #00e1ff);
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 
