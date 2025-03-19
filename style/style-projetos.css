@@ -36,26 +36,42 @@ main {
 }
 
 h1{
-    margin-top: 10px;
-    padding: 20px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
     text-align: center;
-    color: white;
+    color: #9ee3ff;
     border-radius: 5px;
-    
- 
+    text-shadow: 2px 2px 2px black;
 }
 
-h2{
+h3{
     margin: 0;
+    background-color: #00282e;
+    color: #9ee3ff;
+    padding: 2px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+    padding: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.781);
+    color: #e7f8ff;
 }
 
 footer{
-    color: #a7f5ff;
+    color: #0f8b9b;
     padding: 1px;
     text-align: center;
-    background-image: linear-gradient(to right, #026e7c00, #05778654,#05778654,#026e7c00);
+    background-image: linear-gradient(to right, #043b42, #01505a,#055964,#026e7c);
 }
 
+
+footer > p{
+    color: #8bebf8;
+    font-size: 15px;
+}
 
 /*----------------header-----------*/
 
@@ -117,25 +133,32 @@ footer{
 
 /*---------------------------------------------Main-------------------------------------------------------*/
 
-#list_projetos{
+#par_1{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.list_projetos{
+    overflow: hidden;
     display: flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
-    /* background-color: #001b1f; */
-    width: 90%;
+    width: 98%;
     padding: 10px;
-    margin: auto;
 }
 
-#list_projetos > li{
+.list_projetos > li{
     display: block;
-    flex: 0 0 300px;
-    background-image: linear-gradient(45deg, #026e7c00, #00282e, #0283946b, #026e7c23);
+    flex: 0 0 270px;
+    box-shadow: 2px 2px 5px 1px #000000a9;
+    background-image: linear-gradient(45deg, #003d46, #00282e, #01292e6b, #003d46);
     border: 2px solid #04a6bb;
     border-radius: 5px;
     margin: 10px;
     padding: 0px;
     height: 400px;
+    overflow: hidden;
+    animation: transicao 1s ease-in-out;
 }
 
 .img_projetos{
@@ -195,5 +218,16 @@ footer{
         display: block;
         border-radius: 0px;
         margin-top: 10px;
+    }
+}
+
+/*animação da lista*/
+
+@keyframes transicao {
+    to{
+        transform: translateX(0px)
+    }
+    from{
+        transform: translateX(1000px)
     }
 }
