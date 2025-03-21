@@ -10,14 +10,30 @@
 }
 
 @media  (max-width: 710px) {
+    body{
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    main{
+        width: 100vw;
+    }
+
+    footer{
+        width: 98vw;
+    }
     #header-container {
         display: flex;
         flex-direction: column;
-        background-image: linear-gradient(to bottom, #026e7c00, #056270, #003c446b, #026e7c23);
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        background-image: linear-gradient(to bottom, #026e7c, #033b44, #003c44, #026e7c);
     }
 
     #filho1-header {
         display: none;
+        margin: auto;
         height: 231px;
     }
 
@@ -39,7 +55,6 @@
         text-align: center;
         font-size: 18px;
         text-shadow: 3px 3px 3px black;
-        margin: auto;
         width: 86vw;
         border-radius: 0px;
         padding: 15px;
@@ -50,5 +65,27 @@
         display: block;
         border-radius: 0px;
         margin-top: 10px;
+    }
+
+    .list_projetos{
+        width: 90%;
+        margin: auto;
+    }
+
+    .list_projetos > a{
+        display: block;
+        flex: 0 0 85vw;
+        box-shadow: 2px 2px 5px 1px #000000a9;
+        background-image: linear-gradient(45deg, #003d46, #00282e, #01292e6b, #003d46);
+        border: 2px solid #04a6bb;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 0px;
+        height: 350px;
+        overflow: hidden;
+        animation: transicao 1s ease-in-out;
+    }
+    a:hover{
+        transform: scale(1);
     }
 }
