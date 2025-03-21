@@ -1,0 +1,54 @@
+/*Query-Pagina-dos-Projetos*/
+
+@media (min-width: 710px ){
+    #burguer {
+        display: none;
+    }
+    #filho1-header {
+        display: block !important;
+    }
+}
+
+@media  (max-width: 710px) {
+    #header-container {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to bottom, #026e7c00, #056270, #003c446b, #026e7c23);
+    }
+
+    #filho1-header {
+        display: none;
+        height: 231px;
+    }
+
+    #logo>img {
+        margin: auto;
+        width: 200px;
+    }
+
+    #ul-filho-header {
+        display: flex;
+        gap: 0;
+        padding: 0px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #ul-filho-header li>a {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        text-shadow: 3px 3px 3px black;
+        margin: auto;
+        width: 86vw;
+        border-radius: 0px;
+        padding: 15px;
+        margin-bottom: 5px;
+    }
+
+    #burguer {
+        display: block;
+        border-radius: 0px;
+        margin-top: 10px;
+    }
+}
