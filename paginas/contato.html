@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="../style/pagina-contato/style-contato.css">
+    <link rel="stylesheet" href="../style/pagina-contato/query-pg-contato.css" media="all">
+    
+</head>
+
+<body>
+    
+    <header id="header-container">
+        <div id="logo"><img src="../imagens/Lonecrow.png" alt=""></div>
+            
+        
+            <button id="burguer" onclick="burguer()">MENU</button>
+                <div id="filho1-header">
+            
+                    <ul id="ul-filho-header">
+                        <li id="li4"><a href="../index.html">HOME</a></li>
+                        <li id="li2"><a href="projetos.html" rel="internal">PROJETOS</a></li>
+                        <li id="li3"><a href="sobre-mim.html">SOBRE MIM</a></li>
+                        <li id="li1"><a href="contato.html">CONTATO</a></li>
+                    </ul>
+                </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>Para entrar em contato comigo, utilize um dos links abaixo.</h1>
+            <p>Diga seu nome e que veio pelo meu Portifólio</p>
+          <ul>
+            <li class="li_links2">
+                <img src="../imagens/icons/whatsapp-logo-1.png" alt="icon_whatsapp">Fale direto comigo:<a href="https://wa.me/5549999077153">(55) 49 99907-7153</a>
+            </li>
+            <li class="li_links">
+                <img src="../imagens/icons/gmail-icon-free.png" alt="icon_gmail"><p>ghostnetto@gmail.com</p>
+            </li>
+            <li class="li_links">
+                <img src="../imagens/icons/discord.png" alt="icon_discord"><p>Meu id do discord: lonecrow2</p>
+            </li>
+            <li class="li_links2">
+                <img src="../imagens/icons/Github-Logo-Transparent-Background-PNG.png" alt="icon_github">Meu<a href="https://wa.me/5549999077153">GitHub</a> se interessar
+            </li>
+          </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2025 Ernesto Rampanelli Neto. Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        function burguer() {
+            var list = document.getElementById('filho1-header');
+            if (list.style.display === "none" || list.style.display === "") {
+                list.style.display = "block";
+            }
+            else {
+                list.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
