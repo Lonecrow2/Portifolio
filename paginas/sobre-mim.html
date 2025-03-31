@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="../style/pagina-sobre-mim/style-sobre-mim.css">
+    <link rel="stylesheet" href="../style/pagina-sobre-mim/query-pg-sobre-mim.css" media="all">
+    
+</head>
+
+<body>
+    
+    <header id="header-container">
+        <div id="logo"><img src="../imagens/Lonecrow.png" alt=""></div>
+            
+        
+            <button id="burguer" onclick="burguer()">MENU</button>
+                <div id="filho1-header">
+            
+                    <ul id="ul-filho-header">
+                        <li id="li4"><a href="../index.html">HOME</a></li>
+                        <li id="li2"><a href="projetos.html" rel="internal">PROJETOS</a></li>
+                        <li id="li3"><a href="sobre-mim.html">SOBRE MIM</a></li>
+                        <li id="li1"><a href="#">CONTATO</a></li>
+                    </ul>
+                </div>
+        
+           
+    </header>
+
+    <main>
+        <section>
+            <h1>Sobre mim</h1>
+            
+            <p> Olá, sou Ernesto, desenvolvedor front-end em constante evolução. Minha trajetória tem sido enriquecida   por diversas experiências em trabalhos informais, que me ajudaram a desenvolver habilidades essenciais, como trabalho em equipe e relacionamento interpessoal.
+                Ao longo dos anos, passei por diferentes empregos, mas nenhum deles realmente despertava minha paixão. Decidi então explorar algo novo e comecei a estudar hardware por conta própria, o que me levou a participar de um curso na minha cidade, onde conquistei meu primeiro certificado.
+                Embora o trabalho com computadores me agradasse, ainda sentia que algo estava faltando. Foi nesse momento que iniciei uma nova busca por uma área que unisse minha paixão por tecnologia à minha criatividade. Descobri a programação como uma oportunidade de aprendizado constante e trabalhos remotos. Ao explorar esse universo, me encantei pelo desenvolvimento de sites, onde pude expressar minha criatividade e dar vida a projetos por meio de códigos.
+                Em 2 de novembro de 2024, comecei meus estudos na plataforma de cursos online Curso em Vídeo, sob a orientação do Professor Gustavo Guanabara. Concluí os cursos de HTML5 e CSS3, além do curso de Introdução ao JavaScript, obtendo certificados que representam meu comprometimento e dedicação.
+                Desde então, tenho dedicado meu tempo a aprender e criar. Meu interesse por design e criação sempre esteve presente, seja editando imagens com ferramentas como Photopea, CapCut ou utilizando inteligência artificial. Hoje, aplico essas habilidades de forma integrada no desenvolvimento de sites funcionais, estéticos e impactantes.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2025 Ernesto Rampanelli Neto. Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        function burguer() {
+            var list = document.getElementById('filho1-header');
+            if (list.style.display === "none" || list.style.display === "") {
+                list.style.display = "block";
+            }
+            else {
+                list.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
