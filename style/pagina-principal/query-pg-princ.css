@@ -208,6 +208,7 @@
 
     #filho1-header {
         display: none;
+        height: 231px;
     }
 
     #logo>img {
@@ -234,42 +235,6 @@
         padding: 15px;
         margin-bottom: 5px;
     }
-
-    #ul-filho-header2 li>a{
-        background-color: #011f24;
-        border-radius: 0px;
-    }
-
-    #ul-filho-header2 {
-        position: fixed;
-        display: block;
-        top: 80vw;
-        padding: 0px;
-        list-style-type: none;
-        gap: 20px;
-        flex-wrap: wrap;
-        margin: 5px 0px 0px 0px;
-    }
-    
-    #ul-filho-header2 > li > a > img {
-        width: 30px;
-        margin: 0px;
-        filter: brightness(0) invert(1);
-    }
-
-    #li_whats{
-        display: flex;
-        width: 50px;
-    }
-    #li_whats > a{
-        display: flex;
-        align-items: center;
-        margin: 0px 0px 0px 0px !important;
-        width: 20px;
-        padding: 8px;
-    }
-
-    
 
     #burguer {
         display: block;
