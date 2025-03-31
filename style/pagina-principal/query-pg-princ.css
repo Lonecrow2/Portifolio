@@ -257,12 +257,19 @@
         filter: brightness(0) invert(1);
     }
 
-    #whats > img{
-        width: 30px;
+    #li_whats{
+        display: flex;
+        width: 50px;
     }
-    #git > img{
-        width: 30px;
+    #li_whats > a{
+        display: flex;
+        align-items: center;
+        margin: 0px 0px 0px 0px !important;
+        width: 20px;
+        padding: 8px;
     }
+
+    
 
     #burguer {
         display: block;
