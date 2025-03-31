@@ -96,6 +96,25 @@ hr {
     margin: 5px 0px 0px 0px;
 }
 
+#li_whats{
+    
+}
+
+#whats, #git{
+    display: inline-block;
+    padding: 8px !important;
+    margin: -8px 0px 0px 0px;
+    
+}
+
+#whats > img{
+    width: 15px;
+    
+}
+#git > img{
+    width: 15px;
+}
+
 #ul-filho-header2 > li > a > img {
     width: 30px;
     margin: 0px;
