@@ -20,8 +20,8 @@ body {
 
 main {
     flex: 1;
-    box-shadow: inset 0px 0px 6px 0px #000000cc;
-    background-image: linear-gradient(#003d46, #04a6bb);
+    box-shadow: inset 0px 0px 4px 0px #00000071;
+    background-image: linear-gradient(#006a7a, #04a6bb);
 }
 
 section > p{
@@ -44,9 +44,9 @@ section > p{
     display: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: none;
-    background-color: #002c33;
+    background-color: #04a6bb;
     border: none;
     height: 38px;
     margin-top: 8px;
@@ -58,10 +58,11 @@ section > p{
 #header-container {
     display: flex;
     justify-content: space-evenly;
-    background-image: linear-gradient(to right, #026e7c00, #00282e, #0283946b, #026e7c23);
+    background-image: linear-gradient(to right, #0597ad, #03bcd46b);
     width: 100%;
-    border-bottom: 4px solid #026c7a00;
+
 }
+
 
 #ul-filho-header {
     display: flex;
@@ -75,21 +76,44 @@ section > p{
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
-    background-color: #002c33;
+    background-color: #015d6b;
     border-radius: 5px;
     padding: 8px;
     transition: all .5s;
 }
 
+#ul-filho-header2>li>a {
+    display: flex;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #002c33;
+    border-radius: 50%;
+    padding: 7px;
+    transition: all .5s;
+}
+#ul-filho-header2 {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 5px 0px 0px 0px;
+}
+
+
+#ul-filho-header2 > li > a > img {
+    width: 30px;
+    margin: 0px;
+    filter: brightness(0) invert(1);
+}
+
 #ul-filho-header>li>a:hover {
-    background-color: #003f47;
-    box-shadow: 0px 0px 0px 5px #003f47;
+    background-color: #014750;
 }
 
 #logo {
     display: flex;
     height: 51px;
-    filter: drop-shadow(3px 3px 0px black);
+    filter: drop-shadow(1px 1px 0px #00000081);
 }
 
 #logo>img {
@@ -107,10 +131,10 @@ h1 {
 }
 
 footer {
-    color: #a7f5ff;
+    color: #eafdff;
     padding: 1px;
     text-align: center;
-    background-image: linear-gradient(to right, #026e7c00, #00282e, #002429d5, #026e7c23);
+    background-image: linear-gradient(to right, #04a6bb, #04a6bb);
 }
 
 /*---------------------------------------keyframe--------------------------------------------------*/

@@ -14,7 +14,6 @@
     #ul-filho-header li>a {
         text-align: center;
         font-size: 30px;
-        text-shadow: 3px 3px 3px black;
         width: 86vw;
         padding: 28px;
         line-height: 70px;
@@ -108,7 +107,6 @@
     #header-container {
         display: flex;
         flex-direction: column;
-        background-image: linear-gradient(to bottom, #026e7c00, #056270, #003c446b, #026e7c23);
     }
 
     #filho1-header {
@@ -133,7 +131,6 @@
         display: block;
         text-align: center;
         font-size: 18px;
-        text-shadow: 3px 3px 3px black;
         margin: auto;
         width: 86vw;
         border-radius: 0px;
