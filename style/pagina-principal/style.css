@@ -41,9 +41,9 @@ hr {
     display: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: none;
-    background-color: #002c33;
+    background-color: #04a6bb;
     border: none;
     height: 38px;
     margin-top: 8px;
@@ -121,11 +121,15 @@ hr {
 
 h1 {
     text-shadow: none;
-    text-align: center;
+    font-size: 60px;
+    margin: 0px;
     background-image: linear-gradient(to right, #43cffa, #55e7fa, #b5eeff, #43cffa);
     background-clip: text;
     color: transparent;
-    /* color: #43cffa; */
+}
+
+h1 > em > span{
+    color: white;
 }
 
 #apre-container {
@@ -133,7 +137,7 @@ h1 {
     justify-content: space-around;
     margin: 50px 0px 0px 0px;
     gap: 100px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 #img-apre>img {
@@ -142,6 +146,26 @@ h1 {
     animation: crescer 2s ease-out;
 }
 
+#apre-filho {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 600px;
+    height: 100%;
+}
+
+#apre-filho>p {
+    line-height: 25px;
+    white-space: pre-line;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    color: #ffffff;
+    background-color: #04a6bb83;
+    border: 1px solid #3ae8ff;
+    box-shadow: 0px 0px 5px 0px #0000004d;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+}
 #apre-span {
     text-shadow: none;
     font-size: 19px;
@@ -149,28 +173,6 @@ h1 {
     background-image: linear-gradient(to right, #00e1ff, #98f3ff, #98f3ff, #00e1ff);
     background-clip: text;
     color: transparent;
-}
-
-#apre-filho {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 15px;
-    width: 500px;
-    height: 100%;
-    color: #ffffff;
-    background-color: #04a6bb83;
-    border: 1px solid #3ae8ff;
-    box-shadow: 0px 0px 5px 0px #0000004d;
-}
-
-#apre-filho>p {
-    line-height: 35px;
-    white-space: pre-line;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: justify;
 }
 
 footer {

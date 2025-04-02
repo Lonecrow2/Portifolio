@@ -21,11 +21,13 @@
     }
 
     #apre-container {
-        margin-left: 200px;
+        margin-left: 50px;
+        gap: 200px;
+        flex-wrap: nowrap;
     }
 
     #apre-filho {
-        width: 40%;
+        width: 50%;
     }
 
     #img-apre {
@@ -33,25 +35,25 @@
     }
 
     h1 {
-        font-size: 2.4vw;
+        font-size: 4.4vw;
     }
 
     #apre-filho>p {
-        line-height: 35px;
+        line-height: 50px;
+        padding: 20px;
         white-space: pre-line;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        font-size: 2.2vw;
-        line-height: 100%;
+        font-size: 2.0vw;
         text-align: justify;
     }
 
     #apre-span {
-        font-size: 2.1vw;
+        font-size: 2.0vw;
     }
 
     #img-apre>img {
-        width: 70%;
+        width: 60%;
     }
 
     hr {
@@ -101,11 +103,11 @@
     }
 
     #apre-container {
-        margin-left: 200px;
+        margin-left: 100px;
     }
 
     #apre-filho {
-        width: 40%;
+        width: 50%;
     }
 
     #img-apre {
@@ -113,21 +115,20 @@
     }
 
     h1 {
-        font-size: 2.4vw;
+        font-size: 4.4vw;
     }
 
     #apre-filho>p {
-        line-height: 35px;
+        line-height: 40px;
         white-space: pre-line;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        font-size: 2.2vw;
-        line-height: 100%;
+        font-size: 1.5vw;
         text-align: justify;
     }
 
     #apre-span {
-        font-size: 2.1vw;
+        font-size: 1.6vw;
     }
 
     #img-apre>img {
@@ -154,9 +155,16 @@
 
 /*telas até 972px*/
 @media (max-width: 972px) {
+    #apre-container{
+        flex-wrap: wrap;
+    }
     #apre-filho {
         order: 2;
         width: 80%;
+    }
+
+    #apre-span {
+        font-size: 4vw;
     }
 
     #img-apre {
@@ -200,10 +208,21 @@
 /*telas até 710px*/
 
 @media (max-width: 710px) {
+    h1{
+        font-size: 40px;
+    }
+
+    #apre-filho>p {
+        font-size: 4vw;
+    }
+
+    #apre-span {
+        font-size: 4vw;
+    }
+
     #header-container {
         display: flex;
         flex-direction: column;
-        background-image: linear-gradient(to bottom, #026e7c00, #056270, #003c446b, #026e7c23);
     }
 
     #filho1-header {
