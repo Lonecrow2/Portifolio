@@ -20,8 +20,8 @@ body {
 
 main {
     flex: 1;
-    box-shadow: inset 0px 0px 6px 0px #000000cc;
-    background-image: linear-gradient(#003d46, #04a6bb);
+    box-shadow: inset 0px 0px 4px 0px #00000071;
+    background-image: linear-gradient(#006a7a, #04a6bb);
 }
 
 hr {
@@ -55,7 +55,7 @@ hr {
 #header-container {
     display: flex;
     justify-content: space-evenly;
-    background-image: linear-gradient(to right, #026e7c00, #00282e, #0283946b, #026e7c23);
+    background-image: linear-gradient(to right, #0597ad, #03bcd46b);
     width: 100%;
 
 }
@@ -73,7 +73,7 @@ hr {
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
-    background-color: #002c33;
+    background-color: #015d6b;
     border-radius: 5px;
     padding: 8px;
     transition: all .5s;
@@ -97,22 +97,6 @@ hr {
 }
 
 
-
-#whats, #git{
-    display: inline-block;
-    padding: 8px !important;
-    margin: -8px 0px 0px 0px;
-    
-}
-
-#whats > img{
-    width: 15px;
-    
-}
-#git > img{
-    width: 15px;
-}
-
 #ul-filho-header2 > li > a > img {
     width: 30px;
     margin: 0px;
@@ -120,14 +104,13 @@ hr {
 }
 
 #ul-filho-header>li>a:hover {
-    background-color: #003f47;
-    box-shadow: 0px 0px 0px 5px #003f47;
+    background-color: #014750;
 }
 
 #logo {
     display: flex;
     height: 51px;
-    filter: drop-shadow(3px 3px 0px black);
+    filter: drop-shadow(1px 1px 0px #00000081);
 }
 
 #logo>img {
@@ -139,7 +122,7 @@ hr {
 h1 {
     text-shadow: none;
     text-align: center;
-    background-image: linear-gradient(to right, #43cffa, #b5eeff, #b5eeff, #43cffa);
+    background-image: linear-gradient(to right, #43cffa, #55e7fa, #b5eeff, #43cffa);
     background-clip: text;
     color: transparent;
     /* color: #43cffa; */
@@ -155,7 +138,7 @@ h1 {
 
 #img-apre>img {
     width: 280px;
-    filter: drop-shadow(5px 8px 2px black);
+    filter: drop-shadow(5px 8px 10px #00000036);
     animation: crescer 2s ease-out;
 }
 
@@ -174,10 +157,11 @@ h1 {
     padding: 10px;
     font-size: 15px;
     width: 500px;
+    height: 100%;
     color: #ffffff;
-    background-color: #00000052;
-    /* text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438); */
-    box-shadow: 2px 2px 8px 2px #000000;
+    background-color: #04a6bb83;
+    border: 1px solid #3ae8ff;
+    box-shadow: 0px 0px 5px 0px #0000004d;
 }
 
 #apre-filho>p {
@@ -190,10 +174,10 @@ h1 {
 }
 
 footer {
-    color: #a7f5ff;
+    color: #eafdff;
     padding: 1px;
     text-align: center;
-    background-image: linear-gradient(to right, #026e7c00, #00282e, #002429d5, #026e7c23);
+    background-image: linear-gradient(to right, #04a6bb, #04a6bb);
 }
 
 /*---------------------------------------keyframe--------------------------------------------------*/
