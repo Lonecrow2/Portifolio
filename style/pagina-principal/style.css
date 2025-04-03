@@ -60,7 +60,6 @@ hr {
 
 }
 
-
 #ul-filho-header {
     display: flex;
     list-style-type: none;
@@ -77,30 +76,6 @@ hr {
     border-radius: 5px;
     padding: 8px;
     transition: all .5s;
-}
-
-#ul-filho-header2>li>a {
-    display: flex;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #002c33;
-    border-radius: 50%;
-    padding: 7px;
-    transition: all .5s;
-}
-#ul-filho-header2 {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin: 5px 0px 0px 0px;
-}
-
-
-#ul-filho-header2 > li > a > img {
-    width: 30px;
-    margin: 0px;
-    filter: brightness(0) invert(1);
 }
 
 #ul-filho-header>li>a:hover {

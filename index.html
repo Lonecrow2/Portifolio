@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Ernesto Rampanelli Neto, desenvolvedor front-end. Interfaces web eficientes e atraentes para a melhor experiência do usuário.">
+    <meta name="description"
+        content="Portfólio de Ernesto Rampanelli Neto, desenvolvedor front-end. Interfaces web eficientes e atraentes para a melhor experiência do usuário.">
     <title>Ernesto Rampanelli Neto</title>
     <link rel="shortcut icon" href="imagens/corvo logo site-100-favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/pagina-principal/style.css">
@@ -12,34 +13,37 @@
 </head>
 
 <body>
-    
+
     <header id="header-container">
         <div id="logo"><img src="imagens/Lonecrow.png" alt=""></div>
-            
-        
-            <button id="burguer" onclick="burguer()">MENU</button>
-                <div id="filho1-header">
-            
-                    <ul id="ul-filho-header">
-                        <li id="li4"><a href="index.html">HOME</a></li>
-                        <li id="li2"><a href="paginas/projetos.html" rel="internal">PROJETOS</a></li>
-                        <li id="li3"><a href="paginas/sobre-mim.html">SOBRE MIM</a></li>
-                        <li id="li1"><a href="paginas/contato.html">CONTATO</a></li>
-                    </ul>
-                </div>
-        
-           
+
+
+        <button id="burguer" onclick="burguer()">MENU</button>
+        <div id="filho1-header">
+
+            <ul id="ul-filho-header">
+                <li id="li4"><a href="index.html">HOME</a></li>
+                <li id="li2"><a href="paginas/projetos.html" rel="internal">PROJETOS</a></li>
+                <li id="li3"><a href="paginas/sobre-mim.html">SOBRE MIM</a></li>
+                <li id="li1"><a href="paginas/contato.html">CONTATO</a></li>
+            </ul>
+        </div>
+
+
     </header>
-    
+
     <main>
         <section id="apre-container">
 
             <div id="apre-filho">
                 <h1><em><span>DESENVOLVEDOR</span><br>FRONT-END</em></h1>
-                <p> Olá, meu nome é Ernesto Rampanelli Neto. Sou desenvolvedor front-end com <span id="apre-span">especialidade em HTML5, CSS3 e JavaScript com foco na criação de interfaces Web.</span>
+                <p> Olá, meu nome é Ernesto Rampanelli Neto. Sou desenvolvedor front-end com <span
+                        id="apre-span">especialidade em HTML5, CSS3 e JavaScript com foco na criação de interfaces
+                        Web.</span>
 
-                Prezando pela eficiencia, responsividade e visuais atraentes para proporcionar a melhor experiência ao usuário.
-                Ficou interessado? Explore meus projetos no menu acima.
+                    Prezando pela eficiencia, responsividade e visuais atraentes para proporcionar a melhor experiência
+                    ao usuário.
+                    Ficou interessado? Explore meus projetos no menu acima.
                 </p>
             </div>
             <div id="img-apre">
@@ -56,13 +60,23 @@
     <script>
         function burguer() {
             var list = document.getElementById('filho1-header');
+            // Alterna o display no mobile
             if (list.style.display === "none" || list.style.display === "") {
                 list.style.display = "block";
-            }
-            else {
+            } else {
                 list.style.display = "none";
             }
         }
+        // Detecta mudança de tamanho da janela
+        window.addEventListener("resize", function () {
+            var larguraTela = window.innerWidth;
+            var list = document.getElementById('filho1-header');
+            if (larguraTela > 710) {
+                list.style.display = "block"; // Sempre exibe no desktop
+            } else {
+                list.style.display = "none"; // Oculta no mobile
+            }
+        });
     </script>
 </body>
 
