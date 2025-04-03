@@ -137,13 +137,23 @@ section >ul{
     display: flex;
 }
 
-.li_links > img{
-    margin: 20px 5px 0px 0px;
+.li_links2{
+    display: flex;
+}
+
+.li_links2 > img{
+    margin: 25px 5px 0px 0px;
     width: 30px;
     height: 30px;
 }
 
-li > a{
+.li_links > img{
+    margin: 25px 5px 0px 0px;
+    width: 30px;
+    height: 30px;
+}
+
+li > p > a{
     color: #00d9ff;
     text-decoration: none;
 }
