@@ -125,11 +125,7 @@ section >ul{
     border: 1px solid #3ae8ff;
 }
 
-.li_links{
-    display: flex;
-}
-
-.li_links2{
+.li_links, .li_links2{
     display: flex;
 }
 

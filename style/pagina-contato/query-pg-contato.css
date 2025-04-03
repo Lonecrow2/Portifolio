@@ -32,12 +32,13 @@
     }
 
     .li_links2 > img{
+        margin: 18px 5px 0px 0px;
         width: 70px;
         height: 70px;
     }
 
     .li_links > img{
-        margin: 0px 5px 0px 0px;
+        margin: 18px 5px 0px 0px;
         width: 70px;
         height: 70px;
     }
@@ -82,13 +83,13 @@
     }
 
     .li_links2 > img{
-        
+        margin: 18px 5px 0px 0px;
         width: 70px;
         height: 70px;
     }
 
     .li_links > img{
-        margin: 0px 5px 0px 0px;
+        margin: 18px 5px 0px 0px;
         width: 70px;
         height: 70px;
     }
