@@ -78,14 +78,6 @@ section > p{
     transition: all .5s;
 }
 
-#ul-filho-header2 {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin: 5px 0px 0px 0px;
-}
-
 #ul-filho-header>li>a:hover {
     background-color: #014750;
 }
@@ -159,7 +151,6 @@ li > p > a{
 }
 li{
     color: white;
-    text-shadow: 1px 1px 2px black;
 }
 footer {
     color: #eafdff;
