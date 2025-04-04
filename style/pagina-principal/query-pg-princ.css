@@ -257,6 +257,8 @@
     }
 }
 
+/*telas até 366px*/
+
 @media (max-width: 366px){
     h1{
         font-size: 10vw;
