@@ -3,20 +3,21 @@
 /*telas 1921px pra cima */
 @media (min-width: 1921px) {
     #header-container {
-        height: 100px;
+        height: 90px;
     }
 
     #logo>img {
-        width: 110%;
-        height: 180%;
+        height: 159%;
+        margin-top: 4px;
     }
 
     #ul-filho-header li>a {
         text-align: center;
         font-size: 30px;
+        border-radius: 10px;
         width: 86vw;
-        padding: 28px;
-        line-height: 70px;
+        padding: 20px;
+        line-height: 58px;
     }
 
     #apre-container {
@@ -56,7 +57,7 @@
     }
 
     hr {
-        width: 80%;
+        width: 68%;
         height: 1%;
     }
 
