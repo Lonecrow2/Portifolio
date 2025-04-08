@@ -178,3 +178,22 @@ footer {
     }
 }
 
+
+/*Barra de rolagem*/
+::-webkit-scrollbar{
+    width: 14px;
+    height: 14px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #04a6bb;
+    border: 1px solid #003d46;
+    border-radius: 10px;
+    
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: #003d46;
+    border: 1px solid #04a6bb;
+}
