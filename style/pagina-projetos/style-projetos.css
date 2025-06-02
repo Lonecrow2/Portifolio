@@ -140,24 +140,38 @@ footer > p{
     padding: 0px;
 }
 
+.cont_1{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-flow: wrap row;
+}
+
+.cont_2{
+    display: flex;
+    flex-flow: wrap row;
+    margin: 0px;
+    padding: 0px;
+}
+
 .list_projetos{
     overflow: hidden;
     display: flex;
     flex-flow: wrap row;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 98%;
     padding: 10px;
 }
 
-.list_projetos > a{
+.list_projetos > div > a{
     display: block;
-    flex: 0 0 270px;
+    flex: 0 0 250px;
     box-shadow: 1px 1px 5px 1px #000000b9;
     background-color: #037a8a;
     border-radius: 15px;
     margin: 10px;
     padding: 0px;
-    height: 400px;
+    height: 410px;
     overflow: hidden;
     animation: transicao 1s ease-in-out;
 }

@@ -18,7 +18,7 @@
         line-height: 70px;
     }
 
-    .list_projetos > a {
+    .list_projetos > div > a {
         flex: 0 0 440px;
         height: 620px;
         margin-top: 30px;
@@ -83,7 +83,7 @@
         padding: 15px;
         line-height: 40px;
     }
-    .list_projetos > a{
+    .list_projetos > div > a{
         flex: 0 0 320px;
         height: 437px;
     }
@@ -108,7 +108,7 @@
         font-size: 1.2vw;
     }
 }
-@media (min-width: 710px ){
+@media (min-width: 827px ){
     #burguer {
         display: none;
     }
@@ -118,7 +118,7 @@
 }
 
 
-@media  (max-width: 710px) {
+@media  (max-width: 827px) {
     body{
         width: 100vw;
         min-height: 100vh;
@@ -177,13 +177,15 @@
         margin: auto;
     }
 
-    .list_projetos > a{
+    .list_projetos > div > a{
         display: block;
         flex: 0 0 85vw;
         box-shadow: 1px 1px 5px 1px #000000b9;
         background-color: #037a8a;
         border-radius: 15px;
-        margin: 10px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         padding: 0px;
         max-width: 400px;
         height: unset;
